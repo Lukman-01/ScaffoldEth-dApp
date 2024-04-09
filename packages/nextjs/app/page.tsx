@@ -61,16 +61,6 @@ const Home: NextPage = () => {
             <p className="font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
             </div>
-            {/* <div className='w-4/5 mx-auto'>
-              <h2 className="text-center text-2xl md:text-4xl lg:text-6xl text-white mb-8 text-slate-600 pt-10">Application of SupplyChain DApp</h2>
-              <p>The SupplyChain DApp finds practical applications across various industries and sectors. Some potential use cases include:</p>
-              <ul>
-                <li>Food Traceability: SupplyChain DApp can be used in the food industry to track the journey of agricultural produce, ensuring food safety, identifying sources of contamination, and enabling targeted recalls in case of outbreaks.</li>
-                <li>Pharmaceuticals: The DApp can help verify the authenticity and integrity of pharmaceutical products, ensuring that medications are sourced from authorized suppliers and properly handled throughout the supply chain, reducing the risk of counterfeit drugs.</li>
-                <li>Luxury Goods: SupplyChain DApp can provide proof of authenticity and ownership for luxury goods, protecting buyers from purchasing counterfeit products and supporting the resale market.</li>
-                <li>Fair Trade and Sustainability: The DApp can be employed in fair trade initiatives and sustainable supply chains to verify ethical sourcing, monitor fair wages, and track environmental impact.</li>
-              </ul>
-            </div> */}
           </div>
           <div>
             <div className='w-4/5 mx-auto'>
@@ -99,7 +89,7 @@ const Home: NextPage = () => {
               <p>
                 Tinker with your smart contract using the{" "}
                 <Link href="/debug" passHref className="link">
-                  Debug Contracts
+                  Interact With Contracts
                 </Link>{" "}
                 tab.
               </p>
